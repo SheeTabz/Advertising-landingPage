@@ -1,0 +1,37 @@
+html{
+    background-color: #F7E9DB;
+}
+nav{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+nav ul{
+    /* display: flex; */
+  
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}    
+li[type=button]{
+    background-color: rgb(182, 31, 56);
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: #FFF;
+}
